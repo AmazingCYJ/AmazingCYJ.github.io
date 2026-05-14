@@ -1,0 +1,171 @@
+nav:
+  logo:
+  display_title: true
+  fixed: false
+
+menu:
+  首页: / || fas fa-home
+  项目: /projects/ || fas fa-diagram-project
+  学习: /categories/study/ || fas fa-book
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  时间轴: /archives/ || fas fa-archive
+  关于: /about/ || fas fa-user
+
+social:
+  fab fa-github: https://github.com/AmazingCYJ || Github
+  fas fa-envelope: mailto:AmazingCyj@163.com || Email
+  fas fa-rss: /atom.xml || RSS
+
+favicon: /assets/images/avatar.svg
+avatar:
+  img: /assets/images/avatar.svg
+  effect: false
+
+disable_top_img: false
+index_img: /assets/images/hero.svg
+default_top_img: /assets/images/hero.svg
+archive_img: /assets/images/hero.svg
+tag_img: /assets/images/hero.svg
+category_img: /assets/images/hero.svg
+
+cover:
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  position: both
+  default_cover:
+    - /assets/images/post-cover-1.svg
+    - /assets/images/post-cover-2.svg
+    - /assets/images/post-cover-3.svg
+
+top_img: true
+post_meta:
+  page:
+    date_type: created
+    date_format: date
+    categories: true
+    tags: false
+    label: true
+  post:
+    date_type: both
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+
+index_post_content:
+  method: 3
+  length: 260
+
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: left
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: true
+    description: AI 时代的全栈工程师，热衷 Agent 开发。
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/AmazingCYJ
+  card_announcement:
+    enable: true
+    content: 记录 Go 后端、RAG、AI Agent 与工程实践。
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+    sort_order:
+  card_categories:
+    enable: true
+    limit: 8
+    expand: none
+    sort_order:
+  card_tags:
+    enable: true
+    limit: 40
+    color: false
+    sort_order:
+  card_archives:
+    enable: true
+    type: monthly
+    format: MMMM YYYY
+    order: -1
+    limit: 8
+    sort_order:
+  card_webinfo:
+    enable: false
+
+search:
+  use: local_search
+  placeholder: 搜索文章
+  algolia_search:
+    hitsPerPage: 6
+  local_search:
+    preload: false
+    top_n_per_article: 1
+    unescape: false
+    pagination:
+      enable: false
+      hitsPerPage: 8
+    CDN:
+  docsearch:
+    appId:
+    apiKey:
+    indexName:
+    option:
+
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: false
+
+rightside_scroll_percent: true
+auto_open_sidebar:
+  enable: false
+
+footer:
+  owner:
+    enable: true
+    since: 2026
+  custom_text: Powered by Hexo & Butterfly
+
+inject:
+  head:
+    - <link rel="stylesheet" href="/assets/css/custom.css">
+  bottom:
+
+comments:
+  use:
+  text: true
+  lazyload: false
+  count: false
+  card_post_count: false
+
+copy:
+  enable: true
+  copyright:
+    enable: false
+  translate:
+    enable: false
+
+wordcount:
+  enable: false
+busuanzi:
+  site_uv: false
+  site_pv: false
+  page_pv: false
+
+lazyload:
+  enable: false
+
+pjax:
+  enable: false

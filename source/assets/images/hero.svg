@@ -1,0 +1,23 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1920" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070B16"/>
+      <stop offset="0.5" stop-color="#101428"/>
+      <stop offset="1" stop-color="#220B2E"/>
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" stroke="#1D9BF0" stroke-opacity="0.18" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+  <path d="M0 810C250 700 470 760 710 660C980 548 1190 420 1480 462C1690 492 1810 600 1920 560V1080H0V810Z" fill="#07111F" opacity="0.9"/>
+  <path d="M0 868C290 752 516 822 760 716C1032 598 1242 520 1506 548C1700 568 1810 638 1920 612" stroke="#00E5FF" stroke-width="3" opacity="0.65"/>
+  <path d="M0 922C320 806 548 874 806 768C1080 654 1262 604 1510 626C1704 643 1818 684 1920 674" stroke="#FF4FD8" stroke-width="3" opacity="0.55"/>
+  <circle cx="1510" cy="270" r="170" fill="#00E5FF" opacity="0.08"/>
+  <circle cx="1556" cy="252" r="92" stroke="#00E5FF" stroke-width="6" opacity="0.5"/>
+  <circle cx="1320" cy="338" r="10" fill="#FF4FD8"/>
+  <circle cx="1500" cy="178" r="10" fill="#00E5FF"/>
+  <circle cx="1686" cy="340" r="10" fill="#FF4FD8"/>
+  <path d="M1320 338L1500 178L1686 340L1556 252L1320 338Z" stroke="#7DD3FC" stroke-width="4" opacity="0.75"/>
+</svg>
