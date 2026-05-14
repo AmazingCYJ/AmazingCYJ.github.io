@@ -8,7 +8,7 @@ tags:
   - Go
   - KV
   - Bitcask
-cover: /assets/images/post-cover-3.svg
+cover: /assets/images/postcover/post-cover-3.png
 ---
 
 这里会记录 kvix 的实现与设计思考。

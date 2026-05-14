@@ -2,7 +2,7 @@
 title: 关于
 date: 2026-05-14 13:10:00
 type: about
-top_img: /assets/images/hero.svg
+top_img: /assets/images/hero.png
 ---
 
 你好，我是 AmazingCYJ。

@@ -17,17 +17,18 @@ social:
   fas fa-envelope: mailto:AmazingCyj@163.com || Email
   fas fa-rss: /atom.xml || RSS
 
-favicon: /assets/images/avatar.svg
+favicon: /assets/images/avatar.png
 avatar:
-  img: /assets/images/avatar.svg
+  img: /assets/images/avatar.png
+  shape: circle
   effect: false
 
 disable_top_img: false
-index_img: /assets/images/hero.svg
-default_top_img: /assets/images/hero.svg
-archive_img: /assets/images/hero.svg
-tag_img: /assets/images/hero.svg
-category_img: /assets/images/hero.svg
+index_img: /assets/images/hero.png
+default_top_img: /assets/images/hero.png
+archive_img: /assets/images/hero.png
+tag_img: /assets/images/hero.png
+category_img: /assets/images/hero.png
 
 cover:
   index_enable: true
@@ -35,9 +36,10 @@ cover:
   archives_enable: true
   position: both
   default_cover:
-    - /assets/images/post-cover-1.svg
-    - /assets/images/post-cover-2.svg
-    - /assets/images/post-cover-3.svg
+    - /assets/images/postcover/post-cover-1.png
+    - /assets/images/postcover/post-cover-2.png
+    - /assets/images/postcover/post-cover-3.png
+    - /assets/images/postcover/post-cover-4.png
 
 top_img: true
 post_meta:

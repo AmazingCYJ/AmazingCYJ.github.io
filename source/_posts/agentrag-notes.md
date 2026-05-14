@@ -8,7 +8,7 @@ tags:
   - AgentRAG
   - RAG
   - PostgreSQL
-cover: /assets/images/post-cover-2.svg
+cover: /assets/images/postcover/post-cover-2.png
 ---
 
 这里会记录 AgentRAG 的设计、开发和测试过程。

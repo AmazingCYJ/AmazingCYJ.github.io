@@ -8,7 +8,7 @@ tags:
   - AI Agent
   - RAG
   - Go
-cover: /assets/images/post-cover-1.svg
+cover: /assets/images/postcover/post-cover-1.png
 ---
 
 这是博客的第一篇占位文章。

@@ -2,7 +2,7 @@
 title: 项目
 date: 2026-05-14 13:10:00
 type: projects
-top_img: /assets/images/hero.svg
+top_img: /assets/images/hero.png
 ---
 
 ## AgentRAG
