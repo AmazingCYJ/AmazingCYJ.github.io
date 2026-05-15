@@ -37,6 +37,20 @@
   background: linear-gradient(90deg, var(--amazing-cyan), var(--amazing-pink));
 }
 
+#card-toc .toc-percentage {
+  display: none !important;
+}
+
+#rightside #go-up .scroll-percent {
+  display: none !important;
+  opacity: 0 !important;
+}
+
+#rightside #go-up.show-percent i {
+  opacity: 1 !important;
+  transform: scale(1) !important;
+}
+
 @media screen and (max-width: 900px) {
   .layout {
     flex-direction: column;
