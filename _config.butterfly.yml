@@ -147,10 +147,15 @@ inject:
 
 comments:
   use:
+    - Disqus
   text: true
   lazyload: false
   count: false
   card_post_count: false
+
+disqus:
+  shortname: amazingcyj
+  apikey:
 
 copy:
   enable: true
